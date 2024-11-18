@@ -1,7 +1,7 @@
 # CIS-School-Work
 Repository for storing some of my school coding works.
 
-###Table of Contents
+### Table of Contents
 
 ------------
 
@@ -14,5 +14,5 @@ Repository for storing some of my school coding works.
 ------------
 
 
-##CIS 190 - Software Development I
+## CIS 190 - Software Development I
 
