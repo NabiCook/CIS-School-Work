@@ -1,0 +1,14 @@
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\jycoo\Documents\Visual Studio 2022\Lab5\Lab5\obj\Debug\Lab5.pdb
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab5\Lab5\Lab5\obj\Debug\Lab5.pdb

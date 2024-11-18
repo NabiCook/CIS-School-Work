@@ -1,0 +1,20 @@
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\bin\Debug\Program 1.exe.config
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\bin\Debug\Program 1.exe
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\bin\Debug\Program 1.pdb
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program 1.csproj.AssemblyReference.cache
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program_1.Form1.resources
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program_1.Properties.Resources.resources
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program 1.csproj.GenerateResource.cache
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program 1.csproj.CoreCompileInputs.cache
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program 1.exe
+C:\Users\nabicook\Documents\Visual Studio 2022\Program 1\Program 1\obj\Debug\Program 1.pdb
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\bin\Debug\Program 1.exe.config
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\bin\Debug\Program 1.exe
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\bin\Debug\Program 1.pdb
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program 1.csproj.AssemblyReference.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program_1.Form1.resources
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program_1.Properties.Resources.resources
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program 1.csproj.GenerateResource.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program 1.csproj.CoreCompileInputs.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program 1.exe
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Program 1\Program 1\Program 1\obj\Debug\Program 1.pdb
