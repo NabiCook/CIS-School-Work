@@ -14,5 +14,5 @@ Repository for storing some of my school coding works.
 ------------
 
 
-## CIS 190 - Software Development I
+## CIS 199 - Software Development I
 
