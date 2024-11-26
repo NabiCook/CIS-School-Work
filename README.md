@@ -19,14 +19,10 @@ static void Main(string[] args)
             WriteLine("Favorite movie: Inception(2010)");
         }
 ```
-Output:
-> 
-Grading ID:     A1006
-Hobbies:        Computer Games
-Favorite book:  Worrior Cats
-Favorite movie: Inception(2010)
+
 
 #### Lab2 - Tip Calculator (Form)
+![lab2](CIS199/img/lab2.png "lab2")
 ```csharp
 private void calcTipBtn_Click(object sender, EventArgs e)
 {
@@ -49,10 +45,9 @@ private void calcTipBtn_Click(object sender, EventArgs e)
     }
 }
 ```
-Output:
-(placeholder)
 
 #### Lab3 - Sphere Calculator (Form)
+![lab3](CIS199/img/lab3.png "lab3")
 ```csharp
 private void calculate_Click(object sender, EventArgs e)
 {
@@ -79,10 +74,9 @@ private void calculate_Click(object sender, EventArgs e)
     }
 }
 ```
-Output:
-(placeholder)
 
 #### Lab4 - Admission Calculator (Form)
+![lab4](CIS199/img/lab4.png "lab4")
 ```csharp
 private void admitBtn_Click(object sender, EventArgs e)
 {
@@ -116,10 +110,10 @@ private void admitBtn_Click(object sender, EventArgs e)
     else {MessageBox.Show("Check your numbers!");}
 }
 ```
-Output:
-(placeholder)
+
 
 #### Lab5 - Mean Temperature Calculator (Console)
+![lab5](CIS199/img/lab5.png "lab5")
 ```csharp
 static void Main(string[] args)
 {
@@ -151,10 +145,10 @@ static void Main(string[] args)
     Console.WriteLine($"The mean temperatures is {meanTemp.ToString("F1")} degrees.");
 }
 ```
-Output:
-(placeholder)
+
 
 #### Lab6 - Star Pattern Generator (Console)
+![lab6](CIS199/img/lab6.png "lab6")
 ```csharp
 static void Main(string[] args)
 {
@@ -225,11 +219,9 @@ static void Main(string[] args)
 }
 
 ```
-Output:
-(placeholder)
-
 
 #### Lab7 - Star Cube Generator (Console)
+![lab7](CIS199/img/lab7.png "lab7")
 ```csharp
 static void Main(string[] args) 
 {
@@ -267,10 +259,9 @@ static void ShowSquareOfStars(int numStars)
     }
 }
 ```
-Output:
-(placeholder)
 
 #### Program1 - Mural Calculator (Form)
+![program1](CIS199/img/program1.png "program1")
 ```csharp
 private void button1_Click(object sender, EventArgs e)
 {
@@ -315,11 +306,9 @@ private void button1_Click(object sender, EventArgs e)
 }
 
 ```
-Output:
-(placeholder)
-
 
 #### Program2 - Insurance Policy Calculator (Form)
+![program2](CIS199/img/program2.png "program2")
 ```csharp
 public partial class Form1 : Form
 {
@@ -441,10 +430,9 @@ public partial class Form1 : Form
 }
 
 ```
-Output:
-(placeholder)
 
 #### Program3 - Contract Length Calculator (Form)
+![program3](CIS199/img/program3.png "program3")
 ```csharp
 public partial class Form1 : Form
 {
@@ -554,11 +542,8 @@ public partial class Form1 : Form
 
 ```
 
-Output:
-(placeholder)
-
-
 #### Exam1 - Membership Calculator (Form)
+![exam1](CIS199/img/exam1.png "exam1")
 ```csharp
 private void calculateBtn_Click(object sender, EventArgs e)
 {
@@ -605,6 +590,3 @@ private void calculateBtn_Click(object sender, EventArgs e)
 }
 
 ```
-
-Output:
-(placeholder)
