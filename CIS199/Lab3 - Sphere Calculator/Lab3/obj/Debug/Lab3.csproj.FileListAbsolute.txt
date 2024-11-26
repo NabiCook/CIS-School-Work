@@ -1,0 +1,30 @@
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.Lab3.resources
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Users\nabicook\Documents\Visual Studio 2022\Lab3\Lab3\obj\Debug\Lab3.pdb
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.Lab3.resources
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\Lab3\Lab3\Lab3\obj\Debug\Lab3.pdb
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\bin\Debug\Lab3.exe.config
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\bin\Debug\Lab3.exe
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\bin\Debug\Lab3.pdb
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.Lab3.resources
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.exe
+E:\Document\GitHub\CIS-School-Work\CIS199\Lab3\Lab3\obj\Debug\Lab3.pdb
