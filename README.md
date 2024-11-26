@@ -1,13 +1,7 @@
 # CIS-School-Work
 Repository for storing some of my school coding works.
 
-### Table of Contents
-
-------------
-
-------------
-
-## CIS 199
+## CIS 199 Software Development I examples
 #### Lab1 - Simple WriteLine Program (Console)
 ![lab1](CIS199/img/lab1.png "lab1")
 ```csharp
