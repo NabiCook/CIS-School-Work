@@ -1,9 +1,9 @@
 # CIS-School-Work
 Repository for storing some of my school coding works.
 
-## CIS 199 Software Development I examples
+## CIS 199 Software Development I
 #### Lab1 - Simple WriteLine Program (Console)
-![lab1](CIS199/img/lab1.png "lab1")
+![lab1](CIS199 -Software Development I/img/lab1.png "lab1")
 ```csharp
 static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ static void Main(string[] args)
 
 
 #### Lab2 - Tip Calculator (Form)
-![lab2](CIS199/img/lab2.png "lab2")
+![lab2](CIS199 -Software Development I/img/lab2.png "lab2")
 ```csharp
 private void calcTipBtn_Click(object sender, EventArgs e)
 {
@@ -41,7 +41,7 @@ private void calcTipBtn_Click(object sender, EventArgs e)
 ```
 
 #### Lab3 - Sphere Calculator (Form)
-![lab3](CIS199/img/lab3.png "lab3")
+![lab3](CIS199 -Software Development I/img/lab3.png "lab3")
 ```csharp
 private void calculate_Click(object sender, EventArgs e)
 {
@@ -70,7 +70,7 @@ private void calculate_Click(object sender, EventArgs e)
 ```
 
 #### Lab4 - Admission Calculator (Form)
-![lab4](CIS199/img/lab4.png "lab4")
+![lab4](CIS199 -Software Development I/img/lab4.png "lab4")
 ```csharp
 private void admitBtn_Click(object sender, EventArgs e)
 {
@@ -107,7 +107,7 @@ private void admitBtn_Click(object sender, EventArgs e)
 
 
 #### Lab5 - Mean Temperature Calculator (Console)
-![lab5](CIS199/img/lab5.png "lab5")
+![lab5](CIS199 -Software Development I/img/lab5.png "lab5")
 ```csharp
 static void Main(string[] args)
 {
@@ -142,7 +142,7 @@ static void Main(string[] args)
 
 
 #### Lab6 - Star Pattern Generator (Console)
-![lab6](CIS199/img/lab6.png "lab6")
+![lab6](CIS199 -Software Development I/img/lab6.png "lab6")
 ```csharp
 static void Main(string[] args)
 {
@@ -215,7 +215,7 @@ static void Main(string[] args)
 ```
 
 #### Lab7 - Star Cube Generator (Console)
-![lab7](CIS199/img/lab7.png "lab7")
+![lab7](CIS199 -Software Development I/img/lab7.png "lab7")
 ```csharp
 static void Main(string[] args) 
 {
@@ -255,7 +255,7 @@ static void ShowSquareOfStars(int numStars)
 ```
 
 #### Program1 - Mural Calculator (Form)
-![program1](CIS199/img/program1.png "program1")
+![program1](CIS199 -Software Development I/img/program1.png "program1")
 ```csharp
 private void button1_Click(object sender, EventArgs e)
 {
@@ -302,7 +302,7 @@ private void button1_Click(object sender, EventArgs e)
 ```
 
 #### Program2 - Insurance Policy Calculator (Form)
-![program2](CIS199/img/program2.png "program2")
+![program2](CIS199 -Software Development I/img/program2.png "program2")
 ```csharp
 public partial class Form1 : Form
 {
@@ -426,7 +426,7 @@ public partial class Form1 : Form
 ```
 
 #### Program3 - Contract Length Calculator (Form)
-![program3](CIS199/img/program3.png "program3")
+![program3](CIS199 -Software Development I/img/program3.png "program3")
 ```csharp
 public partial class Form1 : Form
 {
@@ -537,7 +537,7 @@ public partial class Form1 : Form
 ```
 
 #### Exam1 - Membership Calculator (Form)
-![exam1](CIS199/img/exam1.png "exam1")
+![exam1](CIS199 -Software Development I/img/exam1.png "exam1")
 ```csharp
 private void calculateBtn_Click(object sender, EventArgs e)
 {
