@@ -9,7 +9,7 @@ Repository for storing some of my school coding works.
 
 ## CIS 199
 #### Lab1 - Simple WriteLine Program (Console)
-
+![lab1](CIS199/img/lab1.png "lab1")
 ```csharp
 static void Main(string[] args)
         {
@@ -557,3 +557,54 @@ public partial class Form1 : Form
 Output:
 (placeholder)
 
+
+#### Exam1 - Membership Calculator (Form)
+```csharp
+private void calculateBtn_Click(object sender, EventArgs e)
+{
+    double input;
+    bool result;
+
+    result = double.TryParse(amountBox.Text, out input);
+
+    if (result == true) 
+    {
+        if (input >= 61) 
+        {
+            outputLbl.Text = "You can afford : VIP Membership";
+        }
+        else if (input >= 46 && input <= 60)
+        {
+            outputLbl.Text = "You can afford : Ultra Plan";
+        }
+        else if (input >= 31 && input <= 45)
+        {
+            outputLbl.Text = "You can afford : Family Plan";
+        }
+        else if (input >= 21 && input <= 30)
+        {
+            outputLbl.Text = "You can afford : Premium Plan";
+        }
+        else if (input >= 11 && input <= 20)
+        {
+            outputLbl.Text = "You can afford : Standard Plan";
+        }
+        else if (input >= 5 && input <= 10)
+        {
+            outputLbl.Text = "You can afford : Basic Plan";
+        }
+        else
+        {
+            outputLbl.Text = "You cannot afford any plans!";
+        }
+    }
+    else if (result == false)
+    {
+        outputLbl.Text = "Please Enter Valid Amount!";
+    }
+}
+
+```
+
+Output:
+(placeholder)

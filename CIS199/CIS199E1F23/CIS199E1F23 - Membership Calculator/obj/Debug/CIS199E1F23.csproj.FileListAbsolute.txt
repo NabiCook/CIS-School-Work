@@ -18,3 +18,13 @@ C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\CIS199E1F23\CIS199E1F23\CIS199
 C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\CIS199E1F23\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.csproj.CoreCompileInputs.cache
 C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\CIS199E1F23\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.exe
 C:\Users\Nabi-XPS15\OneDrive\IT portfolio\CIS 199\CIS199E1F23\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.pdb
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\bin\Debug\CIS199E1F23.exe.config
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\bin\Debug\CIS199E1F23.exe
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\bin\Debug\CIS199E1F23.pdb
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.csproj.AssemblyReference.cache
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.Form1.resources
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.Properties.Resources.resources
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.csproj.GenerateResource.cache
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.csproj.CoreCompileInputs.cache
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.exe
+E:\Document\GitHub\CIS-School-Work\CIS199\CIS199E1F23\CIS199E1F23\obj\Debug\CIS199E1F23.pdb
