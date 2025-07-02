@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CIS411Project.Models.Message>
+
+@{
+    ViewData["Title"] = "Messages";
+}
+
+<h1>Inbox</h1>
+
+<p>
+    <a asp-action="Send">Send New Message</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <div>Time</div>
+            </th>
+            <th>
+                <div>From</div>
+            </th>
+            <th>
+                <div>Message</div>
+            </th>
+            <th>
+                <div>Action</div>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MessageTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MessageSender)
+                </td>               
+                <td>
+                    @Html.DisplayFor(modelItem => item.MessageContent)
+                </td>
+                <td>                    
+                    <a asp-action="DeleteInbox" asp-route-id="@item.MessageID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
