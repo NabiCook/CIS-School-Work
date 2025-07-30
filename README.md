@@ -28,7 +28,7 @@ This was a semester-long group project to build a web application based on .NET 
     * *Users can only see messages where they are the recipient:*
         ![Inbox view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_44-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
     * *SQL database structure:*
-        ![SQL Query](https://github.com/NabiCook/CIS-School-Work/blob/79e970ded706cc7eabc03da0ba42b623a0e64b53/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
+        ![SQL Query](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/blob/79e970ded706cc7eabc03da0ba42b623a0e64b53/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
 ###### the following logic handles filtering
 `if (message.MessageReceiver == HttpContext.User.Identity.Name.ToLower())
 {
@@ -57,50 +57,44 @@ public async Task<IActionResult> DeleteSent(int id)
 
 ---
 
-### CIS 481: Cybersecurity Labtainers
 
-This course involved hands-on labs using Labtainers, a framework for cybersecurity exercises. These labs demonstrated my ability to work with network filters and understand system privileges.
-
-* **net-filter Lab:** This lab focused on configuring network firewalls. A key task was creating rules to allow or block specific traffic, such as allowing only SSH connections from a designated IP address.
-    ```bash
-    # Example: A rule to allow inbound SSH from a specific source
-    sudo ufw allow from 192.168.0.10 to any port 22 proto tcp
-    ```
-
-* **priv-execute Lab:** This lab explored program execution privileges and vulnerabilities. I analyzed how programs can be exploited when running with elevated permissions and identified insecure coding practices.
-    ```c
-    // Example of a vulnerable C code snippet that might be exploited
-    // Using strcpy without checking buffer size can lead to a buffer overflow.
-    void vulnerable_function(char *input) {
-        char buffer[100];
-        strcpy(buffer, input); // Vulnerable line
-    }
-    ```
-
-[**See more from this course here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS%20481)
-
----
-
-### CIS 310: C# and ASP.NET
+### CIS 310: Database Design
 
 This course focused on object-oriented programming using C# and the ASP.NET framework. The assignments below showcase my ability to work with Windows Forms, data structures, and file I/O.
 
-* **Assignment 3 (A3):** Implemented custom data validation and exception handling in a Windows Forms application.
-    ```csharp
-    // Example: Using a try-catch block for robust input parsing
-    try
-    {
-        int quantity = int.Parse(quantityTextBox.Text);
-        // ... process valid input
-    }
-    catch (FormatException)
-    {
-        MessageBox.Show("Please enter a valid number for quantity.");
-    }
-    ```
-* **Assignment 8 (A8):** Developed a program to perform file I/O operations, including reading from and writing to text files to persist application data.
-* **Assignment 10 (A10):** Utilized LINQ (Language Integrated Query) to efficiently query in-memory collections and simplify data manipulation.
+* **Assignment 3 (A3):** Used Microsoft Visio to design an Entity Relationship Diagram (ERD).
+[![ERD](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/blob/main/CIS310%20-%20Database%20Design/A3%20Drawing.png)
 
+* **Assignment 8 (A8):** Developed a program to perform file I/O operations, including reading from and writing to text files to persist application data.
+```sql
+--2.	For every service request for 'Furniture Replacement', list the property ID, 
+--management office number, address, estimated hours, spent hours, owner number, 
+--and owner’s last name.
+
+SELECT S.PROPERTY_ID, P.OFFICE_NUM, P.ADDRESS, S.EST_HOURS, S.SPENT_HOURS, P.OWNER_NUM, (SELECT LAST_NAME FROM OWNER WHERE P.OWNER_NUM = OWNER.OWNER_NUM) AS LNAME
+FROM SERVICE_REQUEST S INNER JOIN PROPERTY P ON S.PROPERTY_ID = P.PROPERTY_ID
+WHERE CATEGORY_NUMBER LIKE (
+SELECT CATEGORY_NUM 
+FROM SERVICE_CATEGORY
+WHERE CATEGORY_DESCRIPTION LIKE 'Furniture Replacement');
+```
+* **Assignment 10 (A10):** Utilized LINQ (Language Integrated Query) to efficiently query in-memory collections and simplify data manipulation.
+```sql
+-- 1. Create a Stored Procedure DISPLAY_OWNER_YOURFIRSTNAMELASTNAME (E.G. DISPLAY_OWNER_JIAOWANG), and its corresponding execution/test code.
+--This Stored Procedure takes a single parameter/variable named INPUT_PROPERTY_ID to store user input value of a PROPERTY_ID. 
+--It should output OFFICE_NUM, ADDRESS, OWNER_NUM and OWNER_NAME (concatenated FirstName LastName in proper format) 
+--from the PROPERTY and OWNER tables for the given PROPERTY_ID
+CREATE PROCEDURE DISPLAY_OWNER_JAMESCOOK 
+    @INPUT_PROPERTY_ID SMALLINT
+AS 
+BEGIN
+    SELECT P.OFFICE_NUM, P.ADDRESS, O.OWNER_NUM, CONCAT(O.FIRST_NAME, ' ', O.LAST_NAME) AS OWNER_NAME
+    FROM PROPERTY AS P 
+    JOIN OWNER AS O ON P.OWNER_NUM = O.OWNER_NUM
+    WHERE P.PROPERTY_ID = @INPUT_PROPERTY_ID
+END;
+
+```
 [**Browse the assignments for this course here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS310)
 
 ---
