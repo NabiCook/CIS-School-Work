@@ -8,28 +8,29 @@ test-upload
 
 ### CIS 411: Web-Based Application Development
 
-This was a semester-long group project to build a full-stack web application with secure user accounts and a private messaging system. My primary contributions focused on implementing the core messaging logic and securing access.
+This was a semester-long group project to build a web application based on .NET MVC. Microsoft Azure database server was used as a backend of this app to store and handle SQL queries.
 
 **Key Features Implemented:**
 
 * **Secure Menu Access:** The messaging menu is only visible to authenticated users. The top navigation bar dynamically changes based on the user's login status.
     * *Logged Out View (No "Messages" link)*
-        ![](/CIS%20411/screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.jpg)
+        ![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
     * *Logged In View (With "Messages" link)*
-        ![](/CIS%20411/screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.jpg)
+        ![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
 
 * **Private Inbox:** Each user can only view messages sent directly to them. This was achieved by adding a `receiver` field to the database and filtering messages based on the currently logged-in user.
     * *Users can only see messages where they are the recipient:*
-        ![](/CIS%20411/screenshots/2025-04-23%2021_33_44-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.jpg)
+        ![Inbox view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_44-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
     * *SQL query filtering messages by receiver:*
-        ![](/CIS%20411/screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
+        ![SQL Query](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
 
 * **Sent Messages Folder:** Users can view a list of all messages they have sent. This was implemented by filtering messages by the `sender` field.
-    ![](/CIS%20411/screenshots/2025-04-23%2021_33_49-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.jpg)
+    ![Sent messages view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_49-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
 
 * **Message Deletion:** Users can delete messages from their Inbox or Sent folder. An `HTTP GET` request handles the deletion, and the user is redirected back to the appropriate page.
 
-[\*\*Browse the code for this project here.\*\*](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS%20411)
+[**Browse the code for this project here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS411%20-%20Web%20Application%20Development)
+
 ---
 
 ### CIS 481: Cybersecurity Labtainers
