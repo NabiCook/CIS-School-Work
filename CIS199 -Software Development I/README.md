@@ -1,6 +1,3 @@
-# CIS-School-Work
-Repository for storing some of my school coding works.
-
 ## CIS 199 Software Development I
 #### Lab1 - Simple WriteLine Program (Console)
 ![lab1](https://github.com/NabiCook/CIS-School-Work/blob/main/CIS199%20-Software%20Development%20I/img/lab1.png "lab1")
