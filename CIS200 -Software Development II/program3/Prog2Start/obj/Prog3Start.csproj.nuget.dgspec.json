@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nabicook\\Downloads\\OneDrive_2025-07-01\\fall 24\\CIS200\\program3\\Prog2Start\\Prog3Start.csproj": {}
+    "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS200 -Software Development II\\program3\\Prog2Start\\Prog3Start.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nabicook\\Downloads\\OneDrive_2025-07-01\\fall 24\\CIS200\\program3\\Prog2Start\\Prog3Start.csproj": {
+    "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS200 -Software Development II\\program3\\Prog2Start\\Prog3Start.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nabicook\\Downloads\\OneDrive_2025-07-01\\fall 24\\CIS200\\program3\\Prog2Start\\Prog3Start.csproj",
+        "projectUniqueName": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS200 -Software Development II\\program3\\Prog2Start\\Prog3Start.csproj",
         "projectName": "Prog3Start",
-        "projectPath": "C:\\Users\\nabicook\\Downloads\\OneDrive_2025-07-01\\fall 24\\CIS200\\program3\\Prog2Start\\Prog3Start.csproj",
+        "projectPath": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS200 -Software Development II\\program3\\Prog2Start\\Prog3Start.csproj",
         "packagesPath": "C:\\Users\\nabicook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nabicook\\Downloads\\OneDrive_2025-07-01\\fall 24\\CIS200\\program3\\Prog2Start\\obj\\",
+        "outputPath": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS200 -Software Development II\\program3\\Prog2Start\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
