@@ -14,58 +14,58 @@ This was a semester-long group project to build a web application based on .NET 
 * **Account Access:** The messaging menu is only visible to authenticated users. The top navigation bar dynamically changes based on the user's login status. This was implemented with a modification on the LoginPartial with IsSignedIn(User) condition.
 
 
-    * *Logged Out View (No messaging options)*
-        ![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+	* *Logged Out View (No messaging options)*
+		![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
 
-    * *Logged In View (Showing messaging options)*
-        ![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+	* *Logged In View (Showing messaging options)*
+		![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
 
 
 ```html
 <ul class="navbar-nav">
-    @if (SignInManager.IsSignedIn(User))
-    {
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Inbox">Inbox</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sent">Sent</a>
-        </li>
-        <li class="nav-item">
-            <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-        </li>
-        <li class="nav-item">
-            <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-            </form>
-        </li>
-    }
-    else
-    {
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-        </li>
-    }
+	@if (SignInManager.IsSignedIn(User))
+	{
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Inbox">Inbox</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sent">Sent</a>
+		</li>
+		<li class="nav-item">
+			<a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+		</li>
+		<li class="nav-item">
+			<form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+				<button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+			</form>
+		</li>
+	}
+	else
+	{
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+		</li>
+	}
 </ul>
 ```
 
 
 * **Private Inbox:** Each user can only view messages sent directly to them. This was achieved by adding a `receiver` field to the database and filtering messages based on the currently logged-in user.
-    * *Users can only see messages where they are the recipient:*
-        ![Inbox view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_44-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
-    * *SQL database structure:*
-        ![SQL Query](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/blob/79e970ded706cc7eabc03da0ba42b623a0e64b53/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
+	* *Users can only see messages where they are the recipient:*
+		![Inbox view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_44-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+	* *SQL database structure:*
+		![SQL Query](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
 ###### the following logic handles filtering
 `if (message.MessageReceiver == HttpContext.User.Identity.Name.ToLower())
 {
-    userMessage.Add(message);
+	userMessage.Add(message);
 }`
 
 * **Sent Messages Folder:** Users can view a list of all messages they have sent. This was implemented by filtering messages by the `sender` field.
-    ![Sent messages view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_49-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+	![Sent messages view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_49-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
 
 * **Message Deletion:** Users can delete messages from their Inbox or Sent folder. An `HTTP GET` request handles the deletion, and the user is redirected back to the appropriate page.
 
@@ -73,11 +73,11 @@ This was a semester-long group project to build a web application based on .NET 
 [HttpGet]
 public async Task<IActionResult> DeleteSent(int id)
 {
-    MessageDBContext db = new MessageDBContext();
-    var deleteMessage = await db.Message.FindAsync(id);
-    db.Message.Remove(deleteMessage);
-    await db.SaveChangesAsync();
-    return RedirectToAction("Sent");
+	MessageDBContext db = new MessageDBContext();
+	var deleteMessage = await db.Message.FindAsync(id);
+	db.Message.Remove(deleteMessage);
+	await db.SaveChangesAsync();
+	return RedirectToAction("Sent");
 }
 
 ```
@@ -92,11 +92,11 @@ public async Task<IActionResult> DeleteSent(int id)
 This course focused on object-oriented programming using C# and the ASP.NET framework. The assignments below showcase my ability to work with Windows Forms, data structures, and file I/O.
 
 * **Assignment 3 (A3):** Used Microsoft Visio to design an Entity Relationship Diagram (ERD).
-![ERD](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/blob/main/CIS310%20-%20Database%20Design/A3%20Drawing.png)
+![ERD](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS310%20-%20Database%20Design/A3%20Drawing.png)
 
 * **Assignment 8 (A8):** Developed a program to perform file I/O operations, including reading from and writing to text files to persist application data.
 ```sql
---2.	For every service request for 'Furniture Replacement', list the property ID, 
+--2. 	For every service request for 'Furniture Replacement', list the property ID, 
 --management office number, address, estimated hours, spent hours, owner number, 
 --and owner’s last name.
 
@@ -114,13 +114,13 @@ WHERE CATEGORY_DESCRIPTION LIKE 'Furniture Replacement');
 --It should output OFFICE_NUM, ADDRESS, OWNER_NUM and OWNER_NAME (concatenated FirstName LastName in proper format) 
 --from the PROPERTY and OWNER tables for the given PROPERTY_ID
 CREATE PROCEDURE DISPLAY_OWNER_JAMESCOOK 
-    @INPUT_PROPERTY_ID SMALLINT
+	@INPUT_PROPERTY_ID SMALLINT
 AS 
 BEGIN
-    SELECT P.OFFICE_NUM, P.ADDRESS, O.OWNER_NUM, CONCAT(O.FIRST_NAME, ' ', O.LAST_NAME) AS OWNER_NAME
-    FROM PROPERTY AS P 
-    JOIN OWNER AS O ON P.OWNER_NUM = O.OWNER_NUM
-    WHERE P.PROPERTY_ID = @INPUT_PROPERTY_ID
+	SELECT P.OFFICE_NUM, P.ADDRESS, O.OWNER_NUM, CONCAT(O.FIRST_NAME, ' ', O.LAST_NAME) AS OWNER_NAME
+	FROM PROPERTY AS P 
+	JOIN OWNER AS O ON P.OWNER_NUM = O.OWNER_NUM
+	WHERE P.PROPERTY_ID = @INPUT_PROPERTY_ID
 END;
 
 ```
@@ -133,13 +133,13 @@ END;
 This project involved creating a multi-form Windows application to capture user input, process it, and save the data to an XML file.
 
 * **Step 1: Data Entry Form**
-    ![Input Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-1.png)
+	![Input Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-1.png)
 
 * **Step 2: Success Confirmation**
-    ![Success Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-2.png)
+	![Success Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-2.png)
 
 * **Step 3: Saved XML Output**
-    ![XML Output](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-3.png)
+	![XML Output](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-3.png)
 
 [**See the code for this project here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS200/Program3)
 
