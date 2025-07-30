@@ -13,6 +13,14 @@ This was a semester-long group project to build a web application based on .NET 
 
 * **Account Access:** The messaging menu is only visible to authenticated users. The top navigation bar dynamically changes based on the user's login status. This was implemented with a modification on the LoginPartial with IsSignedIn(User) condition.
 
+
+    * *Logged Out View (No messaging options)*
+        ![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+
+    * *Logged In View (Showing messaging options)*
+        ![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+
+
 ```html
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
@@ -43,12 +51,6 @@ This was a semester-long group project to build a web application based on .NET 
     }
 </ul>
 ```
-
-    * *Logged Out View (No messaging options)*
-        ![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
-
-    * *Logged In View (Showing messaging options)*
-        ![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
 
 
 * **Private Inbox:** Each user can only view messages sent directly to them. This was achieved by adding a `receiver` field to the database and filtering messages based on the currently logged-in user.
