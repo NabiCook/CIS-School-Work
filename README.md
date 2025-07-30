@@ -14,8 +14,34 @@ This was a semester-long group project to build a web application based on .NET 
 * **Account Access:** The messaging menu is only visible to authenticated users. The top navigation bar dynamically changes based on the user's login status. This was implemented with a modification on the LoginPartial with IsSignedIn(User) condition.
 
 ```html
-@if (SignInManager.IsSignedIn(User))
-<a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a></li>
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Inbox">Inbox</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sent">Sent</a>
+        </li>
+        <li class="nav-item">
+            <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>
+        <li class="nav-item">
+            <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>
 ```
 
     * *Logged Out View (No messaging options)*
@@ -64,7 +90,7 @@ public async Task<IActionResult> DeleteSent(int id)
 This course focused on object-oriented programming using C# and the ASP.NET framework. The assignments below showcase my ability to work with Windows Forms, data structures, and file I/O.
 
 * **Assignment 3 (A3):** Used Microsoft Visio to design an Entity Relationship Diagram (ERD).
-[![ERD](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/blob/main/CIS310%20-%20Database%20Design/A3%20Drawing.png)
+![ERD](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/blob/main/CIS310%20-%20Database%20Design/A3%20Drawing.png)
 
 * **Assignment 8 (A8):** Developed a program to perform file I/O operations, including reading from and writing to text files to persist application data.
 ```sql
