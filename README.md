@@ -1,33 +1,58 @@
 # CIS Coursework Portfolio
 
 test-upload
+This repository showcases some of my course works from CIS classes. They demonstrate my ability to program in C# and SQL, as well as understanding in database design.
 
 ---
 
 ## Featured Projects
 
-### CIS 411: Web-Based Application Development
+### CIS 411: Web Application Development
 
-This was a semester-long group project to build a web application based on .NET MVC. Microsoft Azure database server was used as a backend of this app to store and handle SQL queries.
+This was a semester-long group project to build a web application based on .NET MVC. Microsoft Azure database server was used as a backend to store and handle SQL queries.
 
 **Key Features Implemented:**
 
-* **Secure Menu Access:** The messaging menu is only visible to authenticated users. The top navigation bar dynamically changes based on the user's login status.
-    * *Logged Out View (No "Messages" link)*
-        ![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
-    * *Logged In View (With "Messages" link)*
-        ![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+* **Account Access:** The messaging menu is only visible to authenticated users. The top navigation bar dynamically changes based on the user's login status. This was implemented with a modification on the LoginPartial. with IsSignedIn(User) condition.
+    * *Logged Out View (No messaging options)*
+        ![Logged out view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_33-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+
+    * *Logged In View (Showing messaging options)*
+        ![Logged in view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_17-Home%20Page%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
+
+`@if (SignInManager.IsSignedIn(User))`
+            `<a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>`
+
 
 * **Private Inbox:** Each user can only view messages sent directly to them. This was achieved by adding a `receiver` field to the database and filtering messages based on the currently logged-in user.
     * *Users can only see messages where they are the recipient:*
         ![Inbox view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_44-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
     * *SQL query filtering messages by receiver:*
-        ![SQL Query](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
+        ![SQL Query](https://github.com/NabiCook/CIS-School-Work/blob/79e970ded706cc7eabc03da0ba42b623a0e64b53/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-26%2022_48_32-SQLQuery1.sql%20-%20cis411database.database.windows.net.CIS411%20(cis411bd%20(87))_%20-%20Mi.jpg)
+###### the following logic handles filtering
+`if (message.MessageReceiver == HttpContext.User.Identity.Name.ToLower())
+{
+    userMessage.Add(message);
+}`
 
 * **Sent Messages Folder:** Users can view a list of all messages they have sent. This was implemented by filtering messages by the `sender` field.
     ![Sent messages view](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS411%20-%20Web%20Application%20Development/program_screenshots/2025-04-23%2021_33_49-Messages%20-%20CIS411Project%20and%2078%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge.jpg)
-
+``
 * **Message Deletion:** Users can delete messages from their Inbox or Sent folder. An `HTTP GET` request handles the deletion, and the user is redirected back to the appropriate page.
+
+```html
+[HttpGet]
+public async Task<IActionResult> DeleteSent(int id)
+{
+    MessageDBContext db = new MessageDBContext();
+    var deleteMessage = await db.Message.FindAsync(id);
+    db.Message.Remove(deleteMessage);
+    await db.SaveChangesAsync();
+    return RedirectToAction("Sent");
+}
+
+```
 
 [**Browse the code for this project here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS411%20-%20Web%20Application%20Development)
 

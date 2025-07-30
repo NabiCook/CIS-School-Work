@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Models\\Message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CIS411Project\\Models\\Message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\downloads\\cis411project\\cis411project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\downloads\\cis411project\\cis411project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\downloads\\cis411project\\cis411project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CIS411Project\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CIS411Project\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:45:24.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "CIS411Project\\Models\\Message.cs",
-              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Models\\Message.cs",
-              "RelativeToolTip": "CIS411Project\\Models\\Message.cs",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CIS411Project\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CIS411Project\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T02:23:41.162Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-07-01T23:45:00.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Program.cs",
+              "RelativeDocumentMoniker": "CIS411Project\\Program.cs",
+              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Program.cs",
+              "RelativeToolTip": "CIS411Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:44:49.082Z",
               "EditorCaption": ""
             }
           ]

@@ -8215,11 +8215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\CIS411Project.csproj",
+      "projectUniqueName": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\CIS411Project.csproj",
       "projectName": "CIS411Project",
-      "projectPath": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\CIS411Project.csproj",
+      "projectPath": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\CIS411Project.csproj",
       "packagesPath": "C:\\Users\\nabicook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\obj\\",
+      "outputPath": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

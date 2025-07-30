@@ -1,17 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\",
+  "WorkspaceRootPath": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\downloads\\cis411project\\cis411project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\downloads\\cis411project\\cis411project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\views\\home\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\views\\home\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\views\\shared\\_bannerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\views\\shared\\_bannerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\downloads\\cis411project\\cis411project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|c:\\users\\nabicook\\documents\\github\\cis-school-work\\cis411 - web application development\\cis411project\\cis411project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819D37ED-321E-41C1-8DE5-0D18A1342A05}|CIS411Project\\CIS411Project.csproj|solutionrelative:cis411project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +42,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_BannerPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\Shared\\_BannerPartial.cshtml",
+              "RelativeDocumentMoniker": "CIS411Project\\Views\\Shared\\_BannerPartial.cshtml",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\Shared\\_BannerPartial.cshtml",
+              "RelativeToolTip": "CIS411Project\\Views\\Shared\\_BannerPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T21:04:51.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Inbox.cshtml",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\Home\\Inbox.cshtml",
+              "RelativeDocumentMoniker": "CIS411Project\\Views\\Home\\Inbox.cshtml",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\Home\\Inbox.cshtml",
+              "RelativeToolTip": "CIS411Project\\Views\\Home\\Inbox.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T21:04:47.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CIS411Project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CIS411Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T21:04:46.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CIS411Project\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CIS411Project\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T21:04:42.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CIS411Project\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CIS411Project\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T21:04:41.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CIS411Project\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "CIS411Project\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,27 +126,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CIS411Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CIS411Project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwFIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T23:45:00.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Program.cs",
               "RelativeDocumentMoniker": "CIS411Project\\Program.cs",
-              "ToolTip": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\Program.cs",
+              "ToolTip": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\Program.cs",
               "RelativeToolTip": "CIS411Project\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T23:44:49.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T23:44:49.082Z"
             }
           ]
         }

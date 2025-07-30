@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0PUIYcIiTno=",
+  "dgSpecHash": "fUo1P2dTFpE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nabicook\\Downloads\\CIS411Project\\CIS411Project\\CIS411Project.csproj",
+  "projectFilePath": "C:\\Users\\nabicook\\Documents\\GitHub\\CIS-School-Work\\CIS411 - Web Application Development\\CIS411Project\\CIS411Project\\CIS411Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nabicook\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nabicook\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CIS411Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79e970ded706cc7eabc03da0ba42b623a0e64b53")]
 [assembly: System.Reflection.AssemblyProductAttribute("CIS411Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CIS411Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
