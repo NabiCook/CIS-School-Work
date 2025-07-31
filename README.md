@@ -89,12 +89,12 @@ public async Task<IActionResult> DeleteSent(int id)
 
 ### CIS 310: Database Design
 
-This course focused on object-oriented programming using C# and the ASP.NET framework. The assignments below showcase my ability to work with Windows Forms, data structures, and file I/O.
+This course focused on databasee design and normalization. Microsoft Visio was used to create Entity Relationship Diagram (ERD).
 
-* **Assignment 3 (A3):** Used Microsoft Visio to design an Entity Relationship Diagram (ERD).
+* **Assignment 3 (A3):** ERD Sample
 ![ERD](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS310%20-%20Database%20Design/A3%20Drawing.png)
 
-* **Assignment 8 (A8):** Developed a program to perform file I/O operations, including reading from and writing to text files to persist application data.
+* **Assignment 8 (A8):** SQL query sample
 ```sql
 --2. 	For every service request for 'Furniture Replacement', list the property ID, 
 --management office number, address, estimated hours, spent hours, owner number, 
@@ -107,7 +107,7 @@ SELECT CATEGORY_NUM
 FROM SERVICE_CATEGORY
 WHERE CATEGORY_DESCRIPTION LIKE 'Furniture Replacement');
 ```
-* **Assignment 10 (A10):** Utilized LINQ (Language Integrated Query) to efficiently query in-memory collections and simplify data manipulation.
+* **Assignment 10 (A10):** SQL query sample 2
 ```sql
 -- 1. Create a Stored Procedure DISPLAY_OWNER_YOURFIRSTNAMELASTNAME (E.G. DISPLAY_OWNER_JIAOWANG), and its corresponding execution/test code.
 --This Stored Procedure takes a single parameter/variable named INPUT_PROPERTY_ID to store user input value of a PROPERTY_ID. 
@@ -133,13 +133,13 @@ END;
 This project involved creating a multi-form Windows application to capture user input, process it, and save the data to an XML file.
 
 * **Step 1: Data Entry Form**
-	![Input Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-1.png)
+	![Input Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS200%20-Software%20Development%20II/img/program3-1.jpg)
 
 * **Step 2: Success Confirmation**
-	![Success Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-2.png)
+	![Success Form](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS200%20-Software%20Development%20II/img/program3-2.jpg)
 
 * **Step 3: Saved XML Output**
-	![XML Output](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program3-3.png)
+	![XML Output](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS200%20-Software%20Development%20II/img/program3-3.jpg)
 
 [**See the code for this project here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS200/Program3)
 
@@ -149,6 +149,6 @@ This project involved creating a multi-form Windows application to capture user 
 
 This was one of my first projects, built to solve a practical problem using fundamental programming logic in C#. The application calculates shipping costs based on the destination state and package weight.
 
-![Program 1 Interface](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/img/program1.png)
+![Program 1 Interface](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS199%20-Software%20Development%20I/img/program1.png)
 
 [**See the code for this project here.**](https://github.com/NabiCook/CIS-School-Work/tree/main/CIS199/Program%201)
