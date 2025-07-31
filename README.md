@@ -128,7 +128,7 @@ END;
 
 ---
 
-### CIS 200: Business Application Development
+### CIS 200: Software Development II - Program 3
 
 This project involved creating a multi-form Windows application to capture user input, process it, and save the data to an XML file.
 
@@ -145,9 +145,9 @@ This project involved creating a multi-form Windows application to capture user 
 
 ---
 
-### CIS 199: Introduction to Programming
+### CIS 199: Software Development I - Program 1
 
-This was one of my first projects, built to solve a practical problem using fundamental programming logic in C#. The application calculates shipping costs based on the destination state and package weight.
+This project calculated various costs based on the user input with predefined formula. 
 
 ![Program 1 Interface](https://raw.githubusercontent.com/NabiCook/CIS-School-Work/main/CIS199%20-Software%20Development%20I/img/program1.png)
 
